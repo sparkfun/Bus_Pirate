@@ -387,14 +387,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
-</package>
-<package name="DUMMY">
-<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
-</package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
 <polygon width="0.0762" layer="21">
 <vertex x="0.81" y="1.4"/>
@@ -11495,44 +11487,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="LETTER_L">
-<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
-<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
-<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
-<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
-<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
-<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
-</symbol>
 <symbol name="DGND">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
@@ -16179,29 +16133,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
-Standard 8.5x11 US Letter frame</description>
-<gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NO_PACKAGE" package="DUMMY">
-<technologies>
-<technology name="">
-<attribute name="DESIGNER" value="Nobody" constant="no"/>
-<attribute name="VERSION" value="v01" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -19028,7 +18959,6 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="U1" library="SparkFun-PowerIC" deviceset="MIC5205" device="3.3V" value="MIC5205 3V3"/>
 <part name="U2" library="SparkFun-PowerIC" deviceset="MIC5205" device="3.3V" value="MIC5205 3V3"/>
 <part name="U4" library="SparkFun-PowerIC" deviceset="MIC5205" device="5V" value="MIC5205 5V0"/>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L" value="OSHW-LOGOL"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -19075,9 +19005,9 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="148.59" y="7.62" size="2.54" layer="94">Revised by: Brent Wilkins</text>
-<text x="166.116" y="11.176" size="2.54" layer="94">Ian Lesnet http://dangerousprototypes.com</text>
-<text x="237.744" y="7.112" size="2.54" layer="94">v3.6a_proto</text>
+<text x="148.59" y="7.62" size="2.54" layer="94" font="vector">Revised by: Brent Wilkins</text>
+<text x="171.196" y="11.176" size="2.54" layer="94" font="vector">Ian Lesnet</text>
+<text x="237.744" y="7.112" size="2.54" layer="94" font="vector">v3.6a_proto</text>
 <text x="60.96" y="180.34" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">VOLTAGE REGULATION</text>
 <wire x1="121.92" y1="52.07" x2="73.66" y2="52.07" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="73.66" y1="52.07" x2="0" y2="52.07" width="0.1524" layer="97" style="shortdash"/>
@@ -19109,6 +19039,39 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <text x="99.06" y="45.72" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">CABLE CONNECTOR</text>
 <text x="35.814" y="143.764" size="1.778" layer="97">The MIC5205 requires
 some ESR, added 0.27Ω</text>
+<wire x1="147.32" y1="0" x2="218.44" y2="0" width="0.254" layer="94"/>
+<wire x1="248.92" y1="15.24" x2="234.95" y2="15.24" width="0.254" layer="94"/>
+<wire x1="147.32" y1="0" x2="147.32" y2="5.08" width="0.254" layer="94"/>
+<wire x1="147.32" y1="5.08" x2="218.44" y2="5.08" width="0.254" layer="94"/>
+<wire x1="147.32" y1="5.08" x2="147.32" y2="15.24" width="0.254" layer="94"/>
+<wire x1="248.92" y1="15.24" x2="248.92" y2="5.08" width="0.254" layer="94"/>
+<wire x1="218.44" y1="5.08" x2="218.44" y2="0" width="0.254" layer="94"/>
+<wire x1="218.44" y1="5.08" x2="234.95" y2="5.08" width="0.254" layer="94"/>
+<wire x1="218.44" y1="0" x2="248.92" y2="0" width="0.254" layer="94"/>
+<wire x1="234.95" y1="15.24" x2="234.95" y2="5.08" width="0.254" layer="94"/>
+<wire x1="234.95" y1="15.24" x2="147.32" y2="15.24" width="0.254" layer="94"/>
+<wire x1="234.95" y1="5.08" x2="248.92" y2="5.08" width="0.254" layer="94"/>
+<wire x1="248.92" y1="5.08" x2="248.92" y2="0" width="0.254" layer="94"/>
+<wire x1="147.32" y1="15.24" x2="147.32" y2="22.86" width="0.254" layer="94"/>
+<wire x1="248.92" y1="35.56" x2="147.32" y2="35.56" width="0.254" layer="94"/>
+<wire x1="248.92" y1="35.56" x2="248.92" y2="22.86" width="0.254" layer="94"/>
+<wire x1="147.32" y1="22.86" x2="248.92" y2="22.86" width="0.254" layer="94"/>
+<wire x1="147.32" y1="22.86" x2="147.32" y2="35.56" width="0.254" layer="94"/>
+<wire x1="248.92" y1="22.86" x2="248.92" y2="15.24" width="0.254" layer="94"/>
+<text x="148.59" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="160.02" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="219.71" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="233.68" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="236.22" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="148.844" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="162.814" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="149.86" y="31.75" size="1.9304" layer="94" font="vector">Released under the Creative Commons 0 "No Rights Reserved"</text>
+<text x="149.86" y="26.67" size="1.9304" layer="94" font="vector"> https://creativecommons.org/publicdomain/zero/1.0/</text>
+<text x="148.59" y="11.43" size="2.54" layer="94" font="vector">Design by:</text>
+<wire x1="0" y1="0" x2="0" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="0" x2="0" y2="0" width="0.4064" layer="94"/>
 </plain>
 <instances>
 <instance part="R10" gate="G$1" x="152.4" y="165.1"/>
@@ -19211,8 +19174,6 @@ some ESR, added 0.27Ω</text>
 <instance part="U1" gate="G$1" x="17.78" y="165.1"/>
 <instance part="U2" gate="G$1" x="60.96" y="165.1"/>
 <instance part="U4" gate="G$1" x="101.6" y="165.1"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="LOGO2" gate="G$1" x="136.906" y="31.496"/>
 <instance part="LOGO1" gate="G$1" x="134.62" y="12.7"/>
 <instance part="GND11" gate="1" x="154.94" y="149.86"/>
@@ -19235,7 +19196,7 @@ some ESR, added 0.27Ω</text>
 <instance part="GND18" gate="1" x="203.2" y="139.7"/>
 <instance part="J1" gate="G$1" x="175.26" y="165.1" rot="MR0"/>
 <instance part="GND14" gate="1" x="180.34" y="160.02"/>
-<instance part="FID1" gate="G$1" x="246.38" y="33.02"/>
+<instance part="FID1" gate="G$1" x="241.3" y="25.4"/>
 <instance part="FID2" gate="G$1" x="246.38" y="25.4"/>
 <instance part="SUPPLY14" gate="G$1" x="203.2" y="177.8"/>
 <instance part="SUPPLY10" gate="G$1" x="160.02" y="167.64"/>

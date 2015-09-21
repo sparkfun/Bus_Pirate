@@ -9,6 +9,20 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -335,8 +349,8 @@
 <dimension x1="5.6" y1="4" x2="2.4" y2="4" x3="4" y3="-4.35" textsize="1.778" textratio="15" layer="47" dtype="diameter"/>
 <dimension x1="4" y1="4" x2="4" y2="0" x3="-4" y3="2" textsize="1.778" textratio="15" layer="47"/>
 <text x="30" y="43" size="1.778" layer="47" font="vector" ratio="10" align="bottom-center">All units in mm</text>
-<text x="22.86" y="-19.05" size="1.778" layer="51">Ian Lesnet http://dangerousprototypes.com</text>
-<text x="3.77825" y="-21.62175" size="1.778" layer="51">Revised by: Brent Wilkins (Based on BP v3.6a)</text>
+<text x="29.845" y="-13.97" size="1.778" layer="51" font="vector" align="bottom-center">Designed by: Ian Lesnet http://dangerousprototypes.com</text>
+<text x="29.845" y="-16.54175" size="1.778" layer="51" font="vector" align="bottom-center">Revised by: Brent Wilkins (Based on BP v3.6a)</text>
 <text x="13.843" y="0.508" size="1.27" layer="16" font="vector" ratio="18" rot="MR0" align="bottom-center">v3.6a_proro</text>
 <text x="14.986" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">PWR</text>
 <text x="25.146" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">USB</text>
@@ -354,6 +368,8 @@
 <text x="26.289" y="22.8219" size="1.6764" layer="21" font="vector" ratio="18" align="center">Bus Pirate</text>
 <rectangle x1="26.1493" y1="16.2179" x2="26.7081" y2="16.4465" layer="41"/>
 <rectangle x1="13.589" y1="12.9286" x2="14.0716" y2="13.1572" layer="41"/>
+<text x="29.845" y="-8.89" size="1.778" layer="51" font="vector" align="bottom-center">Released under the Creative Commons 0 "No Rights Reserved"</text>
+<text x="29.845" y="-11.43" size="1.778" layer="51" font="vector" align="bottom-center">https://creativecommons.org/publicdomain/zero/1.0/</text>
 </plain>
 <libraries>
 <library name="40xx">
@@ -22166,11 +22182,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
-</package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
 <polygon width="0.0762" layer="21">
 <vertex x="0.81" y="1.4"/>
@@ -24056,7 +24067,6 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="VREG-00823" x="20.543" y="26.9875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$3" library="dp_devices" package="DP_LOGO_ART_1X1" value="" x="42.487" y="8.2385" rot="MR0"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-7.62" y="-19.05"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="1.905" y="7.62"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="9.779" y="18.5" rot="MR0"/>
 <element name="U5" library="SparkFun-DigitalIC" package="SSOP28DB" value="FT232RL-BASICSSOP" x="17.495" y="15.663" rot="R90">

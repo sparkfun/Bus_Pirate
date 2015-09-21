@@ -18996,9 +18996,9 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 </part>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="LED8" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="LED6" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="LED4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="LED8" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="DNP"/>
+<part name="LED6" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="DNP"/>
+<part name="LED4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="DNP"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/10W-1%(0603)" device="" value="1K"/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
@@ -19012,7 +19012,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <part name="LED1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED">
 <attribute name="PROD_ID" value="DIO-00819"/>
 </part>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="LED2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="DNP"/>
 <part name="R12" library="Testing" deviceset="CAY16-F4" device="" value="10k">
 <attribute name="PROD_ID" value="RES-13167"/>
 </part>
@@ -19077,7 +19077,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <plain>
 <text x="148.59" y="7.62" size="2.54" layer="94">Revised by: Brent Wilkins</text>
 <text x="166.116" y="11.176" size="2.54" layer="94">Ian Lesnet http://dangerousprototypes.com</text>
-<text x="237.744" y="7.112" size="2.54" layer="94">v01</text>
+<text x="237.744" y="7.112" size="2.54" layer="94">v3.6a_proto</text>
 <text x="60.96" y="180.34" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">VOLTAGE REGULATION</text>
 <wire x1="121.92" y1="52.07" x2="73.66" y2="52.07" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="73.66" y1="52.07" x2="0" y2="52.07" width="0.1524" layer="97" style="shortdash"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -160,26 +160,15 @@
 <wire x1="59.5" y1="14.69" x2="43.5" y2="14.69" width="0.254" layer="26"/>
 <text x="29.981" y="-2.847" size="1.6764" layer="49" font="vector" rot="R180" align="top-center">Programming Header</text>
 <text x="63.359" y="17.904" size="1.6764" layer="49" font="vector" rot="R90" align="bottom-center">I/O header</text>
-<text x="12.798" y="31.5" size="1.6764" layer="25" font="vector" ratio="16">PWR</text>
-<text x="31.9308" y="31.5" size="1.6764" layer="25" font="vector" ratio="16">MODE</text>
-<text x="42.2162" y="31.5" size="1.6764" layer="25" font="vector" ratio="16">VREG</text>
 <text x="32.167" y="0.252" size="0.8128" layer="26" font="vector" ratio="12" rot="MR90">PGD</text>
 <text x="34.707" y="0.252" size="0.8128" layer="26" font="vector" ratio="12" rot="MR90">PGC</text>
 <text x="29.581" y="0.252" size="0.8128" layer="26" font="vector" ratio="12" rot="MR90">GND</text>
 <text x="27.041" y="0.252" size="0.8128" layer="26" font="vector" ratio="12" rot="MR90">3V3</text>
 <text x="24.501" y="0.152" size="0.7112" layer="26" font="vector" ratio="15" rot="MR90">MCLR</text>
 <text x="58.941" y="25.569" size="3.81" layer="26" font="vector" ratio="12" rot="MR0">BPv3.6a</text>
-<text x="17.116" y="31.5" size="1.6764" layer="26" font="vector" ratio="16" rot="MR0">PWR</text>
-<text x="37.8028" y="31.5" size="1.6764" layer="26" font="vector" ratio="16" rot="MR0">MODE</text>
-<text x="48.0216" y="31.5" size="1.6764" layer="26" font="vector" ratio="16" rot="MR0">VREG</text>
-<text x="27.1555" y="31.5" size="1.6764" layer="26" font="vector" ratio="16" rot="MR0">USB</text>
-<text x="22.52" y="31.5" size="1.6764" layer="25" font="vector" ratio="16">USB</text>
 <text x="18.511" y="11.98" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">I+S</text>
 <text x="17.241" y="11.98" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">Ian Lesnet</text>
 <text x="18.511" y="14.52" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">2011</text>
-<text x="0.731" y="10.456" size="1.4224" layer="25" font="vector" ratio="12">Bus Pirate</text>
-<text x="11.1125" y="0.9525" size="1.27" layer="25" font="vector" ratio="12">JUN 2012</text>
-<text x="4.287" y="8.805" size="1.4224" layer="25" font="vector" ratio="12">v3.6a</text>
 <text x="35.054" y="5.026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">PGC</text>
 <text x="32.568" y="5.026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">PGD</text>
 <text x="29.928" y="5.026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">GND</text>
@@ -206,11 +195,6 @@
 <text x="48.735" y="14.974" size="1.6764" layer="26" font="vector" ratio="12" rot="MR0">CLK</text>
 <text x="59.101" y="12.561" size="1.6764" layer="26" font="vector" ratio="12" rot="MR0">MISO</text>
 <text x="48.6" y="12.461" size="1.6764" layer="26" font="vector" ratio="12" rot="MR0">CS</text>
-<polygon width="0.0254" layer="25">
-<vertex x="24.94" y="1.916"/>
-<vertex x="24.124" y="0.954"/>
-<vertex x="25.756" y="0.954"/>
-</polygon>
 <polygon width="0.0254" layer="26">
 <vertex x="24.9" y="4.8175"/>
 <vertex x="25.9" y="5.8175"/>
@@ -353,7 +337,7 @@
 <text x="30" y="43" size="1.778" layer="47" font="vector" ratio="10" align="bottom-center">All units in mm</text>
 <text x="22.86" y="-19.05" size="1.778" layer="51">Ian Lesnet http://dangerousprototypes.com</text>
 <text x="3.77825" y="-21.62175" size="1.778" layer="51">Revised by: Brent Wilkins (Based on BP v3.6a)</text>
-<text x="13.843" y="0.508" size="1.27" layer="16" font="vector" ratio="18" rot="MR0" align="bottom-center">v01</text>
+<text x="13.843" y="0.508" size="1.27" layer="16" font="vector" ratio="18" rot="MR0" align="bottom-center">v3.6a_proro</text>
 <text x="14.986" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">PWR</text>
 <text x="25.146" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">USB</text>
 <text x="35.306" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">MODE</text>
@@ -367,6 +351,9 @@
 <text x="30.016" y="5.026" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">GND</text>
 <text x="27.83" y="5.026" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">+3V3</text>
 <text x="25.036" y="5.026" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!MLCR</text>
+<text x="26.289" y="22.8219" size="1.6764" layer="21" font="vector" ratio="18" align="center">Bus Pirate</text>
+<rectangle x1="26.1493" y1="16.2179" x2="26.7081" y2="16.4465" layer="41"/>
+<rectangle x1="13.589" y1="12.9286" x2="14.0716" y2="13.1572" layer="41"/>
 </plain>
 <libraries>
 <library name="40xx">
@@ -23946,13 +23933,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="2.0k" x="23.4386" y="8.1446" size="0.9906" layer="27" font="vector" ratio="12" rot="R180"/>
 <attribute name="PROD_ID" value="RES-08296" x="21.813" y="7.662" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED3" library="SparkFun-LED" package="LED-0603" value="RED" x="15" y="34.5" smashed="yes" rot="R270">
-<attribute name="VALUE" value="RED" x="13.349" y="32.595" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="LED3" library="SparkFun-LED" package="LED-0603" value="RED" x="15" y="34.5" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="15" y="34.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0603-RES" value="1K" x="10" y="34.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.43" y="33.655" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
-<attribute name="VALUE" value="1K" x="12.1336" y="36.8114" size="1.27" layer="27" font="vector" ratio="12" rot="R180"/>
+<element name="R6" library="SparkFun-Resistors" package="0603-RES" value="1K" x="10" y="34.5" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="10" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="34.767" y="21.7043" smashed="yes" rot="R90">
@@ -23970,8 +23954,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="2.0k" x="43.403" y="15.3328" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="PROD_ID" value="RES-08296" x="41.117" y="14.647" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED5" library="SparkFun-LED" package="LED-0603" value="RED" x="35" y="34.5" smashed="yes" rot="R270">
-<attribute name="VALUE" value="RED" x="33.73" y="31.96" size="1.27" layer="27"/>
+<element name="LED5" library="SparkFun-LED" package="LED-0603" value="RED" x="35" y="34.5" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="35" y="34.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603-RES" value="1K" x="30" y="34.5" smashed="yes" rot="R180">
@@ -23979,8 +23962,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="1K" x="31.27" y="37.04" size="1.27" layer="27" font="vector" rot="R180"/>
 <attribute name="PROD_ID" value="RES-07856" x="30" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED7" library="SparkFun-LED" package="LED-0603" value="RED" x="45" y="34.5" smashed="yes" rot="R270">
-<attribute name="VALUE" value="RED" x="43.73" y="31.96" size="1.27" layer="27"/>
+<element name="LED7" library="SparkFun-LED" package="LED-0603" value="RED" x="45" y="34.5" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="45" y="34.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="0603-RES" value="1K" x="40" y="34.5" smashed="yes" rot="R180">
@@ -24008,21 +23990,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="0.1uF" x="47.3781" y="5.0077" size="1.27" layer="27" font="vector"/>
 <attribute name="PROD_ID" value="CAP-00810" x="48.6481" y="7.5477" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED8" library="SparkFun-LED" package="LED-0603" value="RED" x="45" y="34.5" smashed="yes" rot="MR90">
-<attribute name="VALUE" value="RED" x="43.73" y="37.04" size="1.27" layer="28" rot="MR180"/>
+<element name="LED8" library="SparkFun-LED" package="LED-0603" value="DNP" x="45" y="34.5" rot="MR90">
 <attribute name="PROD_ID" value="DIO-00819" x="45" y="34.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LED6" library="SparkFun-LED" package="LED-0603" value="RED" x="35" y="34.5" smashed="yes" rot="MR90">
-<attribute name="VALUE" value="RED" x="33.73" y="37.04" size="1.27" layer="28" rot="MR180"/>
+<element name="LED6" library="SparkFun-LED" package="LED-0603" value="DNP" x="35" y="34.5" rot="MR90">
 <attribute name="PROD_ID" value="DIO-00819" x="35" y="34.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LED4" library="SparkFun-LED" package="LED-0603" value="RED" x="15" y="34.5" smashed="yes" rot="MR90">
-<attribute name="VALUE" value="RED" x="13.73" y="37.04" size="1.27" layer="28" rot="MR180"/>
+<element name="LED4" library="SparkFun-LED" package="LED-0603" value="DNP" x="15" y="34.5" rot="MR90">
 <attribute name="PROD_ID" value="DIO-00819" x="15" y="34.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="1K" x="20" y="34.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.2725" y="33.655" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
-<attribute name="VALUE" value="1K" x="21.016" y="36.786" size="1.27" layer="27" font="vector" rot="R180"/>
+<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="1K" x="20" y="34.5" rot="R180">
 <attribute name="PROD_ID" value="RES-07856" x="20" y="34.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="17.876" y="7.662" smashed="yes" rot="R180">
@@ -24030,9 +24007,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" value="0.1uF" x="19.146" y="10.202" size="1.27" layer="27" font="vector" rot="R180"/>
 <attribute name="PROD_ID" value="CAP-00810" x="17.876" y="7.662" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C8" library="SparkFun-Capacitors" package="0805-CAP" value="10uF" x="24.7396" y="27.0891" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.351" y="28.8703" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="22.1996" y="28.3591" size="1.27" layer="27" font="vector" rot="R270"/>
+<element name="C8" library="SparkFun-Capacitors" package="0805-CAP" value="10uF" x="24.7396" y="27.0891" rot="R270">
 <attribute name="PROD_ID" value="CAP-11330" x="24.7396" y="27.0891" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0805-CAP" value="10uF" x="32.862" y="27.0383" smashed="yes" rot="R270">
@@ -24045,12 +24020,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-11330" x="4.4704" y="26.9367" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$1" library="DP-logo" package="DP-LOGO" value="" x="13.335" y="2.54"/>
-<element name="LED1" library="SparkFun-LED" package="LED-0603" value="RED" x="25" y="34.5" smashed="yes" rot="R270">
-<attribute name="VALUE" value="RED" x="23.73" y="31.96" size="1.27" layer="27"/>
+<element name="LED1" library="SparkFun-LED" package="LED-0603" value="RED" x="25" y="34.5" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="25" y="34.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED2" library="SparkFun-LED" package="LED-0603" value="RED" x="25" y="34.5" smashed="yes" rot="MR90">
-<attribute name="VALUE" value="RED" x="23.73" y="37.04" size="1.27" layer="28" rot="MR180"/>
+<element name="LED2" library="SparkFun-LED" package="LED-0603" value="DNP" x="25" y="34.5" rot="MR90">
 <attribute name="PROD_ID" value="DIO-00819" x="25" y="34.5" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R12" library="Testing" package="4XARRAY" value="10k" x="41.117" y="10.837" smashed="yes" rot="R270">
@@ -24073,19 +24046,13 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.433" y="19.693" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="PROD_ID" value="IC-09426" x="30.068" y="15.663" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U1" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205 3V3" x="8.89" y="26.9875" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.9375" y="29.845" size="1.016" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="12.319" y="25.0825" size="1.27" layer="27" font="vector" rot="R90"/>
+<element name="U1" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205 3V3" x="8.89" y="26.9875" rot="R90">
 <attribute name="PROD_ID" value="VREG-00822" x="8.89" y="26.9875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U2" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205 3V3" x="30" y="26.9875" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.4336" y="28.8703" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="26.571" y="28.8925" size="1.27" layer="27" font="vector" rot="R270"/>
+<element name="U2" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205 3V3" x="30" y="26.9875" rot="R270">
 <attribute name="PROD_ID" value="VREG-00822" x="30" y="26.9875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U4" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205 5V0" x="20.543" y="26.9875" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.129" y="28.7941" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="17.114" y="28.8925" size="1.27" layer="27" font="vector" rot="R270"/>
+<element name="U4" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5205 5V0" x="20.543" y="26.9875" rot="R270">
 <attribute name="PROD_ID" value="VREG-00823" x="20.543" y="26.9875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$3" library="dp_devices" package="DP_LOGO_ART_1X1" value="" x="42.487" y="8.2385" rot="MR0"/>
@@ -24160,7 +24127,6 @@ design rules under a new name.</description>
 <wire x1="12.542" y1="12.615" x2="12.542" y2="12.738" width="0.3048" layer="1"/>
 <wire x1="12.161" y1="12.615" x2="12.161" y2="13.25" width="0.254" layer="1"/>
 <wire x1="13.685" y1="13.377" x2="15.209" y2="13.377" width="0.254" layer="1"/>
-<wire x1="13.812" y1="12.742" x2="13.812" y2="12.869" width="0.254" layer="1"/>
 <wire x1="13.812" y1="12.742" x2="14.955" y2="12.742" width="0.254" layer="1"/>
 <wire x1="13.839" y1="12.738" x2="13.816" y2="12.738" width="0.254" layer="1"/>
 <wire x1="13.816" y1="12.738" x2="13.812" y2="12.742" width="0.254" layer="1"/>
@@ -24269,6 +24235,12 @@ design rules under a new name.</description>
 <via x="39.9598" y="17.2378" extent="1-16" drill="0.508"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C4" pad="2"/>
+<wire x1="26.412" y1="16.638" x2="25.4" y2="16.638" width="0.254" layer="1"/>
+<wire x1="25.4" y1="16.638" x2="25.4" y2="15.338" width="0.254" layer="1"/>
+<wire x1="26.412" y1="15.338" x2="25.4" y2="15.338" width="0.254" layer="1"/>
+<wire x1="25.4" y1="15.338" x2="25.4" y2="15.24" width="0.254" layer="1"/>
+<wire x1="26.412" y1="15.988" x2="25.4" y2="15.988" width="0.254" layer="1"/>
+<wire x1="25.4" y1="15.988" x2="25.4" y2="15.338" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C1" pad="1"/>
@@ -25027,6 +24999,11 @@ design rules under a new name.</description>
 <approved hash="18,29,aa67ce87ce86aa66"/>
 <approved hash="6,1,79f07a2cda2cd9f0"/>
 <approved hash="6,1,78dc7d78dd78d8dc"/>
+<approved hash="19,16,3c3a0bad78ca2554"/>
+<approved hash="19,16,f3bf23b12087f089"/>
+<approved hash="19,16,eb3207a45b894954"/>
+<approved hash="19,16,499969f8d63b8bf4"/>
+<approved hash="19,16,013c606fe3776cdf"/>
 </errors>
 </board>
 </drawing>

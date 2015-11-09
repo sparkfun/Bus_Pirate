@@ -20498,7 +20498,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="NDUC-12579"/>
 </part>
 <part name="U6" library="40xx" deviceset="4066" device="">
-<attribute name="PROD_ID" value="IC-09427"/>
+<attribute name="PROD_ID" value="IC-13191"/>
 </part>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
@@ -20584,7 +20584,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="148.59" y="7.62" size="2.54" layer="94" font="vector">Revised by: Brent Wilkins</text>
 <text x="171.196" y="11.176" size="2.54" layer="94" font="vector">Ian Lesnet</text>
-<text x="237.744" y="7.112" size="2.54" layer="94" font="vector">v3.6a_proto</text>
+<text x="237.744" y="7.112" size="2.54" layer="94" font="vector">v3.6a</text>
 <text x="60.96" y="180.34" size="2.1844" layer="97" font="vector" ratio="15" align="bottom-center">VOLTAGE REGULATION</text>
 <wire x1="121.92" y1="52.07" x2="73.66" y2="52.07" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="73.66" y1="52.07" x2="0" y2="52.07" width="0.1524" layer="97" style="shortdash"/>

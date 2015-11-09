@@ -336,7 +336,7 @@
 <text x="30" y="43" size="1.778" layer="47" font="vector" ratio="10" align="bottom-center">All units in mm</text>
 <text x="29.845" y="-13.97" size="1.778" layer="51" font="vector" align="bottom-center">Designed by: Ian Lesnet http://dangerousprototypes.com</text>
 <text x="29.845" y="-16.54175" size="1.778" layer="51" font="vector" align="bottom-center">Revised by: Brent Wilkins (Based on BP v3.6a)</text>
-<text x="13.843" y="0.508" size="1.27" layer="16" font="vector" ratio="18" rot="MR0" align="bottom-center">v3.6a_proro</text>
+<text x="13.843" y="0.508" size="1.27" layer="16" font="vector" ratio="18" rot="MR0" align="bottom-center">v3.6a</text>
 <text x="14.986" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">PWR</text>
 <text x="25.146" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">USB</text>
 <text x="35.306" y="33.02" size="1.143" layer="21" font="vector" ratio="15" align="center">MODE</text>
@@ -24166,7 +24166,7 @@ design rules under a new name.</description>
 <element name="U6" library="40xx" package="TSSOP14" value="4066" x="43.657" y="5.63" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.5808" y="8.3986" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="43.022" y="9.186" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
-<attribute name="PROD_ID" value="IC-09427" x="43.657" y="5.63" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-13191" x="43.657" y="5.63" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="48.6481" y="7.5477" smashed="yes">
 <attribute name="NAME" x="48.0003" y="5.6553" size="1.016" layer="25" font="vector" ratio="12" rot="SR0"/>

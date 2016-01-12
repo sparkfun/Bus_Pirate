@@ -20564,13 +20564,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP1" library="SparkFun-Connectors" deviceset="M05X2" device="SHD_SMD">
 <attribute name="PROD_ID" value="CONN-09508"/>
 </part>
-<part name="R1" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0">
+<part name="R1" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0.27">
 <attribute name="PROD_ID" value="RES-08787"/>
 </part>
-<part name="R5" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0">
+<part name="R5" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0.27">
 <attribute name="PROD_ID" value="RES-08787"/>
 </part>
-<part name="R8" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0">
+<part name="R8" library="SparkFun-Resistors" deviceset="0OHM-1/10W-5%(0603)" device="" value="0.27">
 <attribute name="PROD_ID" value="RES-08787"/>
 </part>
 <part name="C9" library="SparkFun-Capacitors" deviceset="10UF10V10%(0805)" device="" value="10uF"/>

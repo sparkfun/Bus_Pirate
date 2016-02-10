@@ -2,7 +2,7 @@ Bus Pirate
 ==========
 
 [![Bus Pirate](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/4/0/4/Bus_Pirate.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/4/0/4/Bus_Pirate.jpg)
-*Bus Pirate (TOL-12942)*](https://www.sparkfun.com/products/12942)
+*Bus Pirate [(TOL-12942)](https://www.sparkfun.com/products/12942)*
 
 This is a troubleshooting tool that communicates between a PC and any embedded device over most standard serial protocols, which
 include I<sup>2</sup>C, SPI, and asynchronous serial.

@@ -27,7 +27,7 @@ Product Versions
 Version History
 ---------------
 * [v3.6a](https://www.sparkfun.com/products/12942) &mdash; Updated main connector wire colors/locations and improved power regulation
-* [v36](https://www.sparkfun.com/products/9544) &mdash; Original version produced by SparkFun
+* [v36](https://www.sparkfun.com/products/retired/9544) &mdash; Original version produced by SparkFun
 
 License Information
 -------------------
